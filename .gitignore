@@ -3,3 +3,4 @@ dist
 jsconfig.json
 .prettierrc
 */public/public
+out

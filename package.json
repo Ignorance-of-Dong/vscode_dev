@@ -23,7 +23,11 @@
 		"snippets": [
       {
         "language": "javascript",
-        "path": "./out/snippets/pc.json"
+        "path": "./snippets/pc.json"
+			},
+			{
+        "language": "typescript",
+        "path": "./snippets/pc.json"
       }
     ]
 	},
