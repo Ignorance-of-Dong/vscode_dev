@@ -1,5 +1,4 @@
 node_modules
-.vscode
 dist
 jsconfig.json
 .prettierrc
