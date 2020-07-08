@@ -1,0 +1,30 @@
+{
+  "pcIndex": {
+    "prefix": "pcindex",
+    "body": [
+      "import React from 'react';",
+      "import dva from 'dva';",
+      "import { Router, Route } from 'dva/router';",
+      "import h5dataModal from 'model/h5data-model';",
+      "import model from './model/index';",
+      "import Page from './page';",
+      "",
+      "require('style/antd-reset.global.less');",
+      "",
+      "const app = dva();",
+      "app.model(model);",
+      "app.model(h5dataModal);",
+      "",
+      "app.router(({ history }) => {",
+      "\treturn (",
+      "\t\t<Router history={history}>",
+      "\t\t\t<Route path=\"/\" component={Page} />",
+      "\t\t</Router>",
+      "\t);",
+      "});",
+      "",
+      "app.start('#root');"
+    ],
+    "description": "Code snippet for \"pc-index\""
+  }
+}

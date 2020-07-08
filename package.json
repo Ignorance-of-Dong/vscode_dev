@@ -19,7 +19,13 @@
 				"command": "code-dev.helloWorld",
 				"title": "Hello World"
 			}
-		]
+		],
+		"snippets": [
+      {
+        "language": "javascript",
+        "path": "./out/snippets/pc.json"
+      }
+    ]
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
