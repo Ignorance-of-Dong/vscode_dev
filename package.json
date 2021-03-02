@@ -3,6 +3,7 @@
 	"displayName": "code_dev",
 	"description": "",
 	"version": "0.0.1",
+	"publisher": "zhengzhang",
 	"engines": {
 		"vscode": "^1.46.0"
 	},
@@ -21,15 +22,19 @@
 			}
 		],
 		"snippets": [
-      {
-        "language": "javascript",
-        "path": "./snippets/pc.json"
+			{
+				"language": "javascript",
+				"path": "./snippets/pc.json"
 			},
 			{
-        "language": "typescript",
-        "path": "./snippets/pc.json"
-      }
-    ]
+				"language": "typescript",
+				"path": "./snippets/pc.json"
+			},
+			{
+				"language": "xml",
+				"path": "./snippets/unityTookit.json"
+			}
+		]
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",

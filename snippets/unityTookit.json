@@ -1,0 +1,26 @@
+{
+    "VisualElement": {
+        "prefix": "uiv",
+        "body": [
+            "<ui:VisualElement name=''>${1}</ui:VisualElement>"
+        ]
+    },
+    "Label": {
+        "prefix": "uil",
+        "body": [
+            "<ui:Label name=''>${1}</ui:Label>"
+        ]
+    },
+    "Button": {
+        "prefix": "uib",
+        "body": [
+            "<ui:Button name=''>${1}</ui:Button>"
+        ]
+    },
+    "TextField": {
+        "prefix": "uit",
+        "body": [
+            "<ui:TextField name=''>${1}</ui:TextField>"
+        ]
+    }
+}
